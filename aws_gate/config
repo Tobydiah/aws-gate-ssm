@@ -1,0 +1,19 @@
+hosts:
+  - alias: springbig-zeta
+    name: zeta-eng
+    profile: zeta-eng
+    region: us-east-1
+
+  - alias: springbig-production
+    name: prod-eng
+    profile: prod-eng
+    region: us-east-1
+
+  - alias: delta-eng
+    name: webapp-pro
+    profile: delta-eng
+    region: us-east-1
+
+defaults:
+  profile: zeta-eng
+  region: us-east-1
